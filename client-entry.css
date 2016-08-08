@@ -1,0 +1,154 @@
+[data-background] {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header {
+    position: relative;
+    z-index: 1;
+    display: table;
+    width: 100%;
+}
+header {
+    overflow: hidden;
+}
+.header--type2 .inner {
+    padding: 150px 0 50px;
+    padding: 15rem 0 5rem;
+}
+header > .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+.ct-page_title {
+    color: #fff;
+}
+.ct-page_title .h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    text-transform: inherit;
+    font-size: 81px;
+    font-size: 8.1rem;
+    line-height: 65.85px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
+.ct-page_title-content {
+    text-transform: capitalize;
+    line-height: 36px;
+}
+.ct-page_title-content {
+    font-size: 25px;
+    font-size: 2.5rem;
+    font-family: 'nimbus-sans', sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-top: 1rem;
+    display: inline-block;
+    max-width: 750px;
+    max-width: 75rem;
+}
+.ct-u-paddingBottom100 {
+    padding-bottom: 100px;
+    padding-bottom: 10rem;
+}
+.ct-u-paddingTop40 {
+    padding-top: 40px;
+    padding-top: 2rem;
+}
+.ct-content, .ct-aside {
+    float: right;
+}
+.ct-content {
+    margin-bottom: 80px;
+    margin-top: 15px;
+}
+section.clients-home {
+    margin-top: 20px;
+}
+section.clients-home .clients-logos .client-logos-repeater {
+    height: 260px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+section.clients-home .clients-logos .client-logos-repeater img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.logo-title {
+    position: absolute;
+    display: none;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFF;
+    background-color: #0079c2;
+}
+html, body, img, figure {
+    max-width: 100%;
+}
+.clients-sub-text .social-share h3 {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    color: #434343;
+}
+
+.social-share ul.socials {
+    margin-top: 0;
+    float: none;
+}
+ul.socials li {
+    display: inline-block;
+}
+.clients-sub-text .social-share a {
+    display: inline-block;
+    margin-top: 23px;
+    margin-left: 10px;
+}
+.clients-sub-text {
+    width: 100%;
+    float: left;
+    padding-left: 15px;
+}
+.container .clients-text h2 {
+    margin-bottom: 40px;
+    font-family: "open sans condensed", sans-serif;
+    font-size: 1.750em;
+}
+.ct-content h2 {
+    font-family: "Open Sans Condensed",sans-serif !important;
+    font-size: 34px !important;
+    margin-top: 0;
+}
+.ct-content h1, .ct-content h2 {
+    color: #333;
+    text-transform: capitalize;
+}
+.launch-site-btn a.btn.btn-client {
+    border: 2px solid #676666;
+    color: #676666;
+    font-size: 18px;
+}
+.btn {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px 26px;
+    padding: 1.5rem 2.6rem;
+    color: #fff;
+    border-radius: 0;
+    border: none;
+    font-size: 22px;
+    font-size: 2.2rem;
+}
