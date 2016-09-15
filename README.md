@@ -1,9 +1,9 @@
 # client-showcase
-Showing off your clients and how your product or service has benefited them is integral to sales growth. Displaying them effectively so that potential clients can find relevance in the content you display is crucial to growing your business. The following code can be used to add a client showcase to your website.
+Showing off your clients and how your product or service has benefited them is integral to sales growth. Displaying them effectively so that potential clients can find relevance in the content you display is crucial to growing your business. In this tutorial, [Solodev](https://www.solodev.com/) provides you with the code you need to add a client showcase to your website.
 
 ## Tutorial
 
-For detailed instructions, view Solodev's [Building an Effective Client Showcase](https://www.solodev.com/blog/web-design/code-examples/building-an-effective-client-showcase.stml) article.
+For detailed instructions, view Solodev's [Building an Effective Client Showcase](https://www.solodev.com/blog/web-design/designing-a-client-showcase-with-bootstrap.stml) article.
 
 ## Demo
 
@@ -147,7 +147,7 @@ The client showcase includes the client overview page with the basic HTML markup
 ```
 The client showcase includes the client entry page with the basic HTML markup below.
 ```
-<header class="header--type2" data-background="images/clients.jpg" data-height="35%" style="min-height: 353.5px; background-image: url(images/clients.jpg);">
+<header class="header--type2" data-background="images/clients.jpg" data-height="35%" style="min-height: 353.5px; background-image: url(https://www.solodev.com/assets/clients/clients.jpg);">
    <div class="inner">
       <div class="container">
          <div class="row">
@@ -174,16 +174,13 @@ The client showcase includes the client entry page with the basic HTML markup be
    </div>
 </div>
 <div class="clients-slider-wrapper">
-   <div class="container">
-      <div class="row">
-         <div class="clients-slider text-center col-md-8 col-md-offset-2">
-            <img alt="zeina-mockup.png" src="images/zeina-mockup.png">
-      
-        
-         <div class="clearfix"></div>
-         <div class="clients-line"></div>
-         
-         <div class="clients-text">
+<div class="container">
+<div class="row">
+   <div class="clients-slider text-center col-md-8 col-md-offset-2">
+      <img alt="zeina-mockup.png" src="images/zeina-mockup.png">
+      <div class="clearfix"></div>
+      <div class="clients-line"></div>
+      <div class="clients-text">
          <h2>
             An engaging online experience for job seekers and others in the field of design.
          </h2>
@@ -206,10 +203,24 @@ The CSS is split up into two files, one for client-overview.html->(client-overvi
 
 ## External Includes
 
+The client-overview.html includes the following third party resources.
+
+```
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-<link rel="stylsheet" href="client-entry.css">
-<link rel="stylsheet" href="client-overview.css">
+<link rel="stylesheet" href="client-overview.css">
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+```
+
+The client-entry.html includes the following third party resources.
+
+```
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="client-entry.css">
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+```
